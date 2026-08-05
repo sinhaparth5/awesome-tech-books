@@ -23,7 +23,7 @@ and the systems books that explain how the machine actually works.
 
 ---
 
-## 📚 The Shelves
+## 📚 The shelves
 
 | Shelf | Count | What's inside |
 | :--- | :---: | :--- |
@@ -43,9 +43,9 @@ and the systems books that explain how the machine actually works.
 
 ---
 
-## 🌟 Where to Start
+## 🌟 Where to start
 
-New here? These are the ones worth reading first.
+Six papers, 1951 to 2023, that cover the most ground between them.
 
 | Paper | Why it matters |
 | :--- | :--- |
@@ -64,9 +64,9 @@ New here? These are the ones worth reading first.
 
 ---
 
-## 📖 Full Catalogue
+## 📖 Full catalogue
 
-### AI and Machine Learning
+### AI and machine learning
 
 **Foundations**
 
@@ -76,7 +76,7 @@ New here? These are the ones worth reading first.
 - [Prediction and Entropy of Printed English — Shannon (1951)](ai-and-machine-learning/foundations/Prediction%20and%20Entropy%20of%20Printed%20English%20-%20Shannon%20%281951%29.pdf)
 - [The Perceptron — Rosenblatt (1958)](ai-and-machine-learning/foundations/The%20Perceptron%20-%20A%20Probabilistic%20Model%20for%20Information%20Storage%20and%20Organization%20in%20the%20Brain%20-%20Rosenblatt%20%281958%29.pdf)
 
-**Language Models**
+**Language models**
 
 - [BERT — Devlin, Chang, Lee & Toutanova (2019)](ai-and-machine-learning/language-models/BERT%20-%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding%20-%20Devlin%2C%20Chang%2C%20Lee%20%26%20Toutanova%20%282019%29.pdf)
 - [FlashAttention-2 — Dao (2023)](ai-and-machine-learning/language-models/FlashAttention-2%20-%20Faster%20Attention%20with%20Better%20Parallelism%20and%20Work%20Partitioning%20-%20Dao%20%282023%29.pdf)
@@ -89,7 +89,7 @@ New here? These are the ones worth reading first.
 - [Practical Bayesian Optimization of Machine Learning Algorithms — Snoek, Larochelle & Adams (2012)](ai-and-machine-learning/probabilistic-ml/Practical%20Bayesian%20Optimization%20of%20Machine%20Learning%20Algorithms%20-%20Snoek%2C%20Larochelle%20%26%20Adams%20%282012%29.pdf)
 - [Probabilistic Artificial Intelligence — Krause & Hübotter (2025)](ai-and-machine-learning/probabilistic-ml/Probabilistic%20Artificial%20Intelligence%20-%20Krause%20%26%20Hubotter%20%282025%29.pdf)
 
-**Surveys and Applications**
+**Surveys and applications**
 
 - [A Comprehensive Guide to Explainable AI — Hsieh et al. (2024)](ai-and-machine-learning/surveys-and-applications/A%20Comprehensive%20Guide%20to%20Explainable%20AI%20-%20From%20Classical%20Models%20to%20LLMs%20-%20Hsieh%20et%20al%20%282024%29.pdf)
 - [Artificial Intelligence in Service — Huang & Rust (2018)](ai-and-machine-learning/surveys-and-applications/Artificial%20Intelligence%20in%20Service%20-%20Huang%20%26%20Rust%20%282018%29.pdf)
@@ -105,7 +105,7 @@ New here? These are the ones worth reading first.
 - [Professional CUDA C Programming — Cheng, Grossman & McKercher (2014)](cuda-and-gpu/Professional%20CUDA%20C%20Programming%20-%20Cheng%2C%20Grossman%20%26%20McKercher%20%282014%29.pdf)
 - [Programming Massively Parallel Processors — Kirk & Hwu (2010)](cuda-and-gpu/Programming%20Massively%20Parallel%20Processors%20-%20A%20Hands-on%20Approach%20-%20Kirk%20%26%20Hwu%20%282010%29.pdf)
 
-### Parallel and Distributed
+### Parallel and distributed
 
 - [An MPI-based Algorithm for Mapping Complex Networks onto Hierarchical Architectures — Predari et al. (2021)](parallel-and-distributed/An%20MPI-based%20Algorithm%20for%20Mapping%20Complex%20Networks%20onto%20Hierarchical%20Architectures%20-%20Predari%2C%20Tzovas%2C%20Schulz%20%26%20Meyerhenke%20%282021%29.pdf)
 - [Introduction to MPI: The Message Passing Interface — Nielsen (2016)](parallel-and-distributed/Introduction%20to%20MPI%20-%20The%20Message%20Passing%20Interface%20-%20Nielsen%20%282016%29.pdf)
@@ -122,13 +122,13 @@ New here? These are the ones worth reading first.
 - [The Mathematics of Artificial Intelligence — Peyré (2025)](mathematics/The%20Mathematics%20of%20Artificial%20Intelligence%20-%20Peyre%20%282025%29.pdf)
 - [The Problems Submitted by Ramanujan to the JIMS — Berndt, Choi & Kang (1999)](mathematics/The%20Problems%20Submitted%20by%20Ramanujan%20to%20the%20Journal%20of%20the%20Indian%20Mathematical%20Society%20-%20Berndt%2C%20Choi%20%26%20Kang%20%281999%29.pdf)
 
-### Computer Architecture
+### Computer architecture
 
 - [Code: The Hidden Language of Computer Hardware and Software, 1st Edition — Petzold (2000)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%201st%20Edition%20-%20Petzold%20%282000%29.pdf)
 - [Code: The Hidden Language of Computer Hardware and Software, 2nd Edition — Petzold (2022)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%202nd%20Edition%20-%20Petzold%20%282022%29.pdf)
 - [The Elements of Computing Systems, 2nd Edition — Nisan & Schocken (2021)](computer-architecture/The%20Elements%20of%20Computing%20Systems%20-%20Building%20a%20Modern%20Computer%20from%20First%20Principles%2C%202nd%20Edition%20-%20Nisan%20%26%20Schocken%20%282021%29.pdf)
 
-### Cryptography and Privacy
+### Cryptography and privacy
 
 - [Introduction to Differential Privacy and the Laplace Mechanism](cryptography-and-privacy/Introduction%20to%20Differential%20Privacy%20and%20the%20Laplace%20Mechanism.pdf)
 - [Lecture Notes on Introduction to Cryptography — Goyal, CMU (2020)](cryptography-and-privacy/Lecture%20Notes%20on%20Introduction%20to%20Cryptography%20-%20Goyal%20%282020%29.pdf)
@@ -138,7 +138,7 @@ New here? These are the ones worth reading first.
 - [Competitive Programmer's Handbook — Laaksonen (2018)](programming/Competitive%20Programmer%27s%20Handbook%20-%20Laaksonen%20%282018%29.pdf)
 - [The Julia Language Documentation v1.11.2 — The Julia Project (2024)](programming/The%20Julia%20Language%20Documentation%20v1.11.2%20-%20The%20Julia%20Project%20%282024%29.pdf)
 
-### Quantum Computing
+### Quantum computing
 
 - [Multi Digit Ising Mapping for Low Precision Ising Solvers — Singh & Jamieson (2024)](quantum-computing/Multi%20Digit%20Ising%20Mapping%20for%20Low%20Precision%20Ising%20Solvers%20-%20Singh%20%26%20Jamieson%20%282024%29.pdf)
 - [Quantum Information and Computation — Bub (2006)](quantum-computing/Quantum%20Information%20and%20Computation%20-%20Bub%20%282006%29.pdf)
@@ -158,7 +158,7 @@ New here? These are the ones worth reading first.
 
 ---
 
-## 🔗 External Links
+## 🔗 External links
 
 Good material that lives elsewhere:
 
@@ -192,7 +192,7 @@ gh repo edit --add-topic awesome,awesome-list,books,ebooks,pdf,learning-resource
 
 ## 🤝 Contributing
 
-Found something that belongs here?
+To add a book or paper:
 
 1. Drop the PDF on the shelf it fits, or propose a new one.
 2. Name it `Title - Author (Year).pdf` — matching the rest of the shelf.
