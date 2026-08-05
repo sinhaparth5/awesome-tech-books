@@ -11,9 +11,9 @@ and the systems books that explain how the machine actually works.
 
 <br>
 
-![PDFs](https://img.shields.io/badge/PDFs-46-818CF8?style=for-the-badge&labelColor=1B1B4B)
-![Shelves](https://img.shields.io/badge/Shelves-11-22D3EE?style=for-the-badge&labelColor=1B1B4B)
-![License](https://img.shields.io/badge/License-MIT-F472B6?style=for-the-badge&labelColor=1B1B4B)
+![46 PDFs](https://img.shields.io/badge/PDFs-46-4F46E5?style=for-the-badge&labelColor=1B1B4B)
+![11 shelves](https://img.shields.io/badge/Shelves-11-0E7490?style=for-the-badge&labelColor=1B1B4B)
+![MIT licensed](https://img.shields.io/badge/License-MIT-DB2777?style=for-the-badge&labelColor=1B1B4B)
 
 <br>
 
@@ -24,6 +24,8 @@ and the systems books that explain how the machine actually works.
 ---
 
 ## 📚 The shelves
+
+Every folder is a shelf. Click one to browse it, or open the [full catalogue](#-full-catalogue) to see every title at once.
 
 | Shelf | Count | What's inside |
 | :--- | :---: | :--- |
@@ -56,17 +58,24 @@ Six papers, 1951 to 2023, that cover the most ground between them.
 | [BERT — Devlin et al. (2019)](ai-and-machine-learning/language-models/BERT%20-%20Pre-training%20of%20Deep%20Bidirectional%20Transformers%20for%20Language%20Understanding%20-%20Devlin%2C%20Chang%2C%20Lee%20%26%20Toutanova%20%282019%29.pdf) | Pretraining as the default |
 | [FlashAttention-2 — Dao (2023)](ai-and-machine-learning/language-models/FlashAttention-2%20-%20Faster%20Attention%20with%20Better%20Parallelism%20and%20Work%20Partitioning%20-%20Dao%20%282023%29.pdf) | Why attention got fast |
 
-**Reading paths**
+**Three reading paths**
 
-- **GPU programming** → [Programming Massively Parallel Processors](cuda-and-gpu/Programming%20Massively%20Parallel%20Processors%20-%20A%20Hands-on%20Approach%20-%20Kirk%20%26%20Hwu%20%282010%29.pdf) → [CUDA by Example](cuda-and-gpu/CUDA%20by%20Example%20-%20An%20Introduction%20to%20General-Purpose%20GPU%20Programming%20-%20Sanders%20%26%20Kandrot%20%282010%29.pdf) → [CUDA C++ Programming Guide](cuda-and-gpu/CUDA%20C%2B%2B%20Programming%20Guide%20v12.8%20-%20NVIDIA%20%282025%29.pdf)
-- **The machine underneath** → [Code (Petzold)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%202nd%20Edition%20-%20Petzold%20%282022%29.pdf) → [The Elements of Computing Systems](computer-architecture/The%20Elements%20of%20Computing%20Systems%20-%20Building%20a%20Modern%20Computer%20from%20First%20Principles%2C%202nd%20Edition%20-%20Nisan%20%26%20Schocken%20%282021%29.pdf)
-- **The maths** → [The Mathematics of AI](mathematics/The%20Mathematics%20of%20Artificial%20Intelligence%20-%20Peyre%20%282025%29.pdf) → [Matrix Calculus](mathematics/Matrix%20Calculus%20for%20Machine%20Learning%20and%20Beyond%20-%20Edelman%20%26%20Johnson%20%282025%29.pdf) → [Probability & Statistics for Data Science](mathematics/Probability%20and%20Statistics%20for%20Data%20Science%20-%20Fernandez-Granda.pdf)
+| Path | Order |
+| :--- | :--- |
+| **GPU programming** | [Programming Massively Parallel Processors](cuda-and-gpu/Programming%20Massively%20Parallel%20Processors%20-%20A%20Hands-on%20Approach%20-%20Kirk%20%26%20Hwu%20%282010%29.pdf) → [CUDA by Example](cuda-and-gpu/CUDA%20by%20Example%20-%20An%20Introduction%20to%20General-Purpose%20GPU%20Programming%20-%20Sanders%20%26%20Kandrot%20%282010%29.pdf) → [CUDA C++ Programming Guide](cuda-and-gpu/CUDA%20C%2B%2B%20Programming%20Guide%20v12.8%20-%20NVIDIA%20%282025%29.pdf) |
+| **The machine underneath** | [Code (Petzold)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%202nd%20Edition%20-%20Petzold%20%282022%29.pdf) → [The Elements of Computing Systems](computer-architecture/The%20Elements%20of%20Computing%20Systems%20-%20Building%20a%20Modern%20Computer%20from%20First%20Principles%2C%202nd%20Edition%20-%20Nisan%20%26%20Schocken%20%282021%29.pdf) |
+| **The maths** | [The Mathematics of AI](mathematics/The%20Mathematics%20of%20Artificial%20Intelligence%20-%20Peyre%20%282025%29.pdf) → [Matrix Calculus](mathematics/Matrix%20Calculus%20for%20Machine%20Learning%20and%20Beyond%20-%20Edelman%20%26%20Johnson%20%282025%29.pdf) → [Probability & Statistics for Data Science](mathematics/Probability%20and%20Statistics%20for%20Data%20Science%20-%20Fernandez-Granda.pdf) |
 
 ---
 
 ## 📖 Full catalogue
 
-### AI and machine learning
+All 46 titles, grouped by shelf. Click any shelf to expand it.
+
+<details>
+<summary><b>AI and machine learning</b> &nbsp;·&nbsp; 16 titles</summary>
+
+<br>
 
 **Foundations**
 
@@ -96,22 +105,12 @@ Six papers, 1951 to 2023, that cover the most ground between them.
 - [Curvature Tuning — Hu & Balestriero (2025)](ai-and-machine-learning/surveys-and-applications/Curvature%20Tuning%20-%20Provable%20Training-free%20Model%20Steering%20From%20a%20Single%20Parameter%20-%20Hu%20%26%20Balestriero%20%282025%29.pdf)
 - [Is Complexity an Illusion? — Bennett (2024)](ai-and-machine-learning/surveys-and-applications/Is%20Complexity%20an%20Illusion%20-%20Bennett%20%282024%29.pdf)
 
-### CUDA and GPU
+</details>
 
-- [CUDA by Example — Sanders & Kandrot (2010)](cuda-and-gpu/CUDA%20by%20Example%20-%20An%20Introduction%20to%20General-Purpose%20GPU%20Programming%20-%20Sanders%20%26%20Kandrot%20%282010%29.pdf)
-- [CUDA C++ Programming Guide v12.8 — NVIDIA (2025)](cuda-and-gpu/CUDA%20C%2B%2B%20Programming%20Guide%20v12.8%20-%20NVIDIA%20%282025%29.pdf)
-- [CUDA for Engineers — Storti & Yurtoglu (2015)](cuda-and-gpu/CUDA%20for%20Engineers%20-%20An%20Introduction%20to%20High-Performance%20Parallel%20Computing%20-%20Storti%20%26%20Yurtoglu%20%282015%29.pdf)
-- [Learn CUDA Programming — Han & Sharma (2019)](cuda-and-gpu/Learn%20CUDA%20Programming%20-%20Han%20%26%20Sharma%20%282019%29.pdf)
-- [Professional CUDA C Programming — Cheng, Grossman & McKercher (2014)](cuda-and-gpu/Professional%20CUDA%20C%20Programming%20-%20Cheng%2C%20Grossman%20%26%20McKercher%20%282014%29.pdf)
-- [Programming Massively Parallel Processors — Kirk & Hwu (2010)](cuda-and-gpu/Programming%20Massively%20Parallel%20Processors%20-%20A%20Hands-on%20Approach%20-%20Kirk%20%26%20Hwu%20%282010%29.pdf)
+<details>
+<summary><b>Mathematics</b> &nbsp;·&nbsp; 8 titles</summary>
 
-### Parallel and distributed
-
-- [An MPI-based Algorithm for Mapping Complex Networks onto Hierarchical Architectures — Predari et al. (2021)](parallel-and-distributed/An%20MPI-based%20Algorithm%20for%20Mapping%20Complex%20Networks%20onto%20Hierarchical%20Architectures%20-%20Predari%2C%20Tzovas%2C%20Schulz%20%26%20Meyerhenke%20%282021%29.pdf)
-- [Introduction to MPI: The Message Passing Interface — Nielsen (2016)](parallel-and-distributed/Introduction%20to%20MPI%20-%20The%20Message%20Passing%20Interface%20-%20Nielsen%20%282016%29.pdf)
-- [Notes on Theory of Distributed Systems — Aspnes (2025)](parallel-and-distributed/Notes%20on%20Theory%20of%20Distributed%20Systems%20-%20Aspnes%20%282025%29.pdf)
-
-### Mathematics
+<br>
 
 - [Applied Linear Algebra and Differential Equations — Chasnov (2019)](mathematics/Applied%20Linear%20Algebra%20and%20Differential%20Equations%20-%20Chasnov%20%282019%29.pdf)
 - [Calculus 1 for Honours Mathematics — Forrest & Forrest (2023)](mathematics/Calculus%201%20for%20Honours%20Mathematics%20-%20Forrest%20%26%20Forrest%20%282023%29.pdf)
@@ -122,39 +121,93 @@ Six papers, 1951 to 2023, that cover the most ground between them.
 - [The Mathematics of Artificial Intelligence — Peyré (2025)](mathematics/The%20Mathematics%20of%20Artificial%20Intelligence%20-%20Peyre%20%282025%29.pdf)
 - [The Problems Submitted by Ramanujan to the JIMS — Berndt, Choi & Kang (1999)](mathematics/The%20Problems%20Submitted%20by%20Ramanujan%20to%20the%20Journal%20of%20the%20Indian%20Mathematical%20Society%20-%20Berndt%2C%20Choi%20%26%20Kang%20%281999%29.pdf)
 
-### Computer architecture
+</details>
+
+<details>
+<summary><b>CUDA and GPU</b> &nbsp;·&nbsp; 6 titles</summary>
+
+<br>
+
+- [CUDA by Example — Sanders & Kandrot (2010)](cuda-and-gpu/CUDA%20by%20Example%20-%20An%20Introduction%20to%20General-Purpose%20GPU%20Programming%20-%20Sanders%20%26%20Kandrot%20%282010%29.pdf)
+- [CUDA C++ Programming Guide v12.8 — NVIDIA (2025)](cuda-and-gpu/CUDA%20C%2B%2B%20Programming%20Guide%20v12.8%20-%20NVIDIA%20%282025%29.pdf)
+- [CUDA for Engineers — Storti & Yurtoglu (2015)](cuda-and-gpu/CUDA%20for%20Engineers%20-%20An%20Introduction%20to%20High-Performance%20Parallel%20Computing%20-%20Storti%20%26%20Yurtoglu%20%282015%29.pdf)
+- [Learn CUDA Programming — Han & Sharma (2019)](cuda-and-gpu/Learn%20CUDA%20Programming%20-%20Han%20%26%20Sharma%20%282019%29.pdf)
+- [Professional CUDA C Programming — Cheng, Grossman & McKercher (2014)](cuda-and-gpu/Professional%20CUDA%20C%20Programming%20-%20Cheng%2C%20Grossman%20%26%20McKercher%20%282014%29.pdf)
+- [Programming Massively Parallel Processors — Kirk & Hwu (2010)](cuda-and-gpu/Programming%20Massively%20Parallel%20Processors%20-%20A%20Hands-on%20Approach%20-%20Kirk%20%26%20Hwu%20%282010%29.pdf)
+
+</details>
+
+<details>
+<summary><b>Parallel and distributed</b> &nbsp;·&nbsp; 3 titles</summary>
+
+<br>
+
+- [An MPI-based Algorithm for Mapping Complex Networks onto Hierarchical Architectures — Predari et al. (2021)](parallel-and-distributed/An%20MPI-based%20Algorithm%20for%20Mapping%20Complex%20Networks%20onto%20Hierarchical%20Architectures%20-%20Predari%2C%20Tzovas%2C%20Schulz%20%26%20Meyerhenke%20%282021%29.pdf)
+- [Introduction to MPI: The Message Passing Interface — Nielsen (2016)](parallel-and-distributed/Introduction%20to%20MPI%20-%20The%20Message%20Passing%20Interface%20-%20Nielsen%20%282016%29.pdf)
+- [Notes on Theory of Distributed Systems — Aspnes (2025)](parallel-and-distributed/Notes%20on%20Theory%20of%20Distributed%20Systems%20-%20Aspnes%20%282025%29.pdf)
+
+</details>
+
+<details>
+<summary><b>Computer architecture</b> &nbsp;·&nbsp; 3 titles</summary>
+
+<br>
 
 - [Code: The Hidden Language of Computer Hardware and Software, 1st Edition — Petzold (2000)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%201st%20Edition%20-%20Petzold%20%282000%29.pdf)
 - [Code: The Hidden Language of Computer Hardware and Software, 2nd Edition — Petzold (2022)](computer-architecture/Code%20-%20The%20Hidden%20Language%20of%20Computer%20Hardware%20and%20Software%2C%202nd%20Edition%20-%20Petzold%20%282022%29.pdf)
 - [The Elements of Computing Systems, 2nd Edition — Nisan & Schocken (2021)](computer-architecture/The%20Elements%20of%20Computing%20Systems%20-%20Building%20a%20Modern%20Computer%20from%20First%20Principles%2C%202nd%20Edition%20-%20Nisan%20%26%20Schocken%20%282021%29.pdf)
 
-### Cryptography and privacy
+</details>
+
+<details>
+<summary><b>Cryptography and privacy</b> &nbsp;·&nbsp; 2 titles</summary>
+
+<br>
 
 - [Introduction to Differential Privacy and the Laplace Mechanism](cryptography-and-privacy/Introduction%20to%20Differential%20Privacy%20and%20the%20Laplace%20Mechanism.pdf)
 - [Lecture Notes on Introduction to Cryptography — Goyal, CMU (2020)](cryptography-and-privacy/Lecture%20Notes%20on%20Introduction%20to%20Cryptography%20-%20Goyal%20%282020%29.pdf)
 
-### Programming
+</details>
+
+<details>
+<summary><b>Programming</b> &nbsp;·&nbsp; 2 titles</summary>
+
+<br>
 
 - [Competitive Programmer's Handbook — Laaksonen (2018)](programming/Competitive%20Programmer%27s%20Handbook%20-%20Laaksonen%20%282018%29.pdf)
 - [The Julia Language Documentation v1.11.2 — The Julia Project (2024)](programming/The%20Julia%20Language%20Documentation%20v1.11.2%20-%20The%20Julia%20Project%20%282024%29.pdf)
 
-### Quantum computing
+</details>
+
+<details>
+<summary><b>Quantum computing</b> &nbsp;·&nbsp; 2 titles</summary>
+
+<br>
 
 - [Multi Digit Ising Mapping for Low Precision Ising Solvers — Singh & Jamieson (2024)](quantum-computing/Multi%20Digit%20Ising%20Mapping%20for%20Low%20Precision%20Ising%20Solvers%20-%20Singh%20%26%20Jamieson%20%282024%29.pdf)
 - [Quantum Information and Computation — Bub (2006)](quantum-computing/Quantum%20Information%20and%20Computation%20-%20Bub%20%282006%29.pdf)
 
-### Physics
+</details>
 
-- [PHY405 Relativity, Lecture Notes — Lim](physics/PHY405%20Relativity%20-%20Lecture%20Notes%20-%20Lim.pdf)
+<details>
+<summary><b>Notes, physics and coursework</b> &nbsp;·&nbsp; 4 titles</summary>
 
-### Notes
+<br>
+
+**My own write-ups**
 
 - [Data Structures and Algorithms in Java — Sinha](notes/Data%20Structures%20and%20Algorithms%20in%20Java%20-%20Sinha.pdf)
 - [Learning Probability and Statistics for Machine Learning and Data Science — Sinha](notes/Learning%20Probability%20and%20Statistics%20for%20Machine%20Learning%20and%20Data%20Science%20-%20Sinha.pdf)
 
-### Coursework
+**Physics**
+
+- [PHY405 Relativity, Lecture Notes — Lim](physics/PHY405%20Relativity%20-%20Lecture%20Notes%20-%20Lim.pdf)
+
+**Coursework**
 
 - [CS336 Assignment 1: Building a Transformer LM (Spring 2025)](coursework/CS336%20Assignment%201%20-%20Building%20a%20Transformer%20LM%20%28Spring%202025%29.pdf)
+
+</details>
 
 ---
 
