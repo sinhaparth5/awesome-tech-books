@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-label="Awesome Tech Books logo">
+  <title>Awesome Tech Books</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B1026"/>
+      <stop offset="55%"  stop-color="#1B1B4B"/>
+      <stop offset="100%" stop-color="#3B1D63"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#22D3EE"/>
+      <stop offset="50%"  stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="pageL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#A5B4FC"/>
+    </linearGradient>
+
+    <linearGradient id="pageR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <radialGradient id="halo" cx="50%" cy="38%" r="55%">
+      <stop offset="0%"   stop-color="#818CF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="0" y="0" width="256" height="256" rx="58" fill="url(#bg)"/>
+  <rect x="0" y="0" width="256" height="256" rx="58" fill="url(#halo)"/>
+  <rect x="2" y="2" width="252" height="252" rx="56" fill="none" stroke="url(#accent)" stroke-width="3" stroke-opacity="0.75"/>
+
+  <!-- knowledge graph rising out of the book -->
+  <g stroke="url(#accent)" stroke-width="2.6" stroke-linecap="round" fill="none" opacity="0.95" filter="url(#glow)">
+    <path d="M128 150 L96 116"/>
+    <path d="M128 150 L160 116"/>
+    <path d="M96 116 L76 82"/>
+    <path d="M96 116 L128 74"/>
+    <path d="M160 116 L128 74"/>
+    <path d="M160 116 L180 82"/>
+    <path d="M76 82 L128 44"/>
+    <path d="M128 74 L128 44"/>
+    <path d="M180 82 L128 44"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="128" cy="44"  r="11" fill="#F8FAFC"/>
+    <circle cx="76"  cy="82"  r="7.5" fill="#22D3EE"/>
+    <circle cx="128" cy="74"  r="7.5" fill="#A5B4FC"/>
+    <circle cx="180" cy="82"  r="7.5" fill="#F472B6"/>
+    <circle cx="96"  cy="116" r="6.5" fill="#818CF8"/>
+    <circle cx="160" cy="116" r="6.5" fill="#818CF8"/>
+  </g>
+
+  <!-- open book -->
+  <g>
+    <path d="M128 158 C108 143 76 138 42 143 L42 199 C76 194 108 199 128 212 Z" fill="url(#pageL)"/>
+    <path d="M128 158 C148 143 180 138 214 143 L214 199 C180 194 148 199 128 212 Z" fill="url(#pageR)"/>
+    <path d="M128 158 L128 212" stroke="#1B1B4B" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <g stroke="#1B1B4B" stroke-width="3" stroke-linecap="round" opacity="0.28">
+      <path d="M60 158 L112 165"/>
+      <path d="M60 172 L112 179"/>
+      <path d="M144 165 L196 158"/>
+      <path d="M144 179 L196 172"/>
+    </g>
+  </g>
+</svg>

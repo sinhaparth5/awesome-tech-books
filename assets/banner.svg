@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img" aria-label="Awesome Tech Books — a curated shelf of books, papers and notes">
+  <title>Awesome Tech Books</title>
+
+  <defs>
+    <linearGradient id="bbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#0B1026"/>
+      <stop offset="55%"  stop-color="#1B1B4B"/>
+      <stop offset="100%" stop-color="#3B1D63"/>
+    </linearGradient>
+
+    <linearGradient id="baccent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#22D3EE"/>
+      <stop offset="50%"  stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="55%"  stop-color="#C7D2FE"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <linearGradient id="bpageL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#A5B4FC"/>
+    </linearGradient>
+
+    <linearGradient id="bpageR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <radialGradient id="bhalo" cx="18%" cy="45%" r="45%">
+      <stop offset="0%"   stop-color="#818CF8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="bglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="300" rx="28" fill="url(#bbg)"/>
+  <rect x="0" y="0" width="1100" height="300" rx="28" fill="url(#bhalo)"/>
+
+  <!-- faint circuit texture on the right -->
+  <g stroke="#818CF8" stroke-opacity="0.16" stroke-width="2" fill="none">
+    <path d="M700 40 H860 V100 H1010"/>
+    <path d="M760 260 H900 V190 H1040"/>
+    <path d="M980 30 V80 H1060"/>
+    <circle cx="860" cy="100" r="4" fill="#818CF8" fill-opacity="0.3" stroke="none"/>
+    <circle cx="900" cy="190" r="4" fill="#22D3EE" fill-opacity="0.3" stroke="none"/>
+    <circle cx="980" cy="30"  r="4" fill="#F472B6" fill-opacity="0.3" stroke="none"/>
+  </g>
+
+  <!-- mark -->
+  <g transform="translate(64, 34) scale(0.87)">
+    <g stroke="url(#baccent)" stroke-width="2.6" stroke-linecap="round" fill="none" filter="url(#bglow)">
+      <path d="M128 150 L96 116"/>
+      <path d="M128 150 L160 116"/>
+      <path d="M96 116 L76 82"/>
+      <path d="M96 116 L128 74"/>
+      <path d="M160 116 L128 74"/>
+      <path d="M160 116 L180 82"/>
+      <path d="M76 82 L128 44"/>
+      <path d="M128 74 L128 44"/>
+      <path d="M180 82 L128 44"/>
+    </g>
+    <g filter="url(#bglow)">
+      <circle cx="128" cy="44"  r="11"  fill="#F8FAFC"/>
+      <circle cx="76"  cy="82"  r="7.5" fill="#22D3EE"/>
+      <circle cx="128" cy="74"  r="7.5" fill="#A5B4FC"/>
+      <circle cx="180" cy="82"  r="7.5" fill="#F472B6"/>
+      <circle cx="96"  cy="116" r="6.5" fill="#818CF8"/>
+      <circle cx="160" cy="116" r="6.5" fill="#818CF8"/>
+    </g>
+    <path d="M128 158 C108 143 76 138 42 143 L42 199 C76 194 108 199 128 212 Z" fill="url(#bpageL)"/>
+    <path d="M128 158 C148 143 180 138 214 143 L214 199 C180 194 148 199 128 212 Z" fill="url(#bpageR)"/>
+    <path d="M128 158 L128 212" stroke="#1B1B4B" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+    <g stroke="#1B1B4B" stroke-width="3" stroke-linecap="round" opacity="0.28">
+      <path d="M60 158 L112 165"/>
+      <path d="M60 172 L112 179"/>
+      <path d="M144 165 L196 158"/>
+      <path d="M144 179 L196 172"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="320" y="132" fill="url(#word)" font-size="66" font-weight="700"
+          textLength="688" lengthAdjust="spacingAndGlyphs">Awesome Tech Books</text>
+    <text x="322" y="176" fill="#94A3B8" font-size="24" font-weight="400"
+          textLength="468" lengthAdjust="spacingAndGlyphs">A CURATED SHELF FOR ENGINEERS</text>
+    <rect x="322" y="200" width="150" height="5" rx="2.5" fill="url(#baccent)"/>
+    <text x="322" y="243" fill="#CBD5E1" font-size="21" font-weight="400"
+          textLength="628" lengthAdjust="spacingAndGlyphs">AI &#183; Machine Learning &#183; CUDA &#183; MPI &#183; Mathematics &#183; Systems &#183; Crypto</text>
+  </g>
+</svg>
